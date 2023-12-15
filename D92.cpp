@@ -16,9 +16,6 @@ public:
             count++;
         }
 
-        cout << "count : " << count << endl;
-        cout << "left : " << left << endl;
-
         for (int i = 1; i <= count; i++)
         {
             left = (left << 1);
